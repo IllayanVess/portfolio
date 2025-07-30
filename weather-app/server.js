@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3000;
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production' 
     ? process.env.FRONTEND_URL 
-    : 'http://localhost:5500', // Adjust to match your frontend port
+    : 'http://localhost:3000', // Adjust to match your frontend port
   optionsSuccessStatus: 200
 };
 
