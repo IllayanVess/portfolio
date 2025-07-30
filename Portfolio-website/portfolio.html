@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="public/styles/portfolio.css">
+    <script src="https://kit.fontawesome.com/874a892791.js" crossorigin="anonymous"></script>
+  
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Timothy Ray</span></h1>
+            <h2>Full stack Developer in training</h2>
+            <p>Learning to build digital experiences</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="hero-image">
+            <img src="..\images\Tim-profile.jpg" alt="Profile Image of Timothy and Tom">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm currently an english tutor with a desire to become a full stack develloper.</p>
+                <p>When I'm not coding, you can find me reading or exploring new technologies.</p>
+                <p>I am Bilingual French/English</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="public\images\about_img.jpg" alt="Picture of Timothy Ray holding a Guiness">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+            </div>
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill">Python</div>
+                <div class="skill">Flask</div>
+                <div class="skill">Learning Flask and Django</div>
+            </div>
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <div class="skill">Git</div>
+                <div class="skill">VS Code</div>
+                <div class="skill">Learning Figma</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x250" alt="weather-app">
+                <h3>Weather App</h3>
+                <p>A weather application using API integration</p>
+                <div class="project-links">
+                    <a href="weather.html" class="btn-small" target="_blank">Live Demo</a>
+                    <a href="https://github.com/IllayanVess/Practice/tree/main/weather-app" class="btn-small">Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x250" alt="React e-commerce app">
+                <h3>E-commerce Site</h3>
+                <p>Full-stack e-commerce platform</p>
+                <div class="project-links">
+                    <a href="#" class="btn-small">Live Demo</a>
+                    <a href="#" class="btn-small">Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x250" alt="To-Do app">
+                <h3>Task Manager</h3>
+                <p>Todo application with analytics</p>
+                <div class="project-links">
+                    <a href="https://timothy-rays-team.adalo.com/to-do-list-1" class="btn-small" target="_blank">Live Demo</a>
+                    <a href="../to-do-app/Screenshot 2025-07-30 093623.png" class="btn-small" target="_blank">Set up</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact" aria-label="Contact Section">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-container">
+        <form id="contactForm" class="contact-form" method="POST" action="https://formspree.io/f/xanbbwvn" aria-label="Contact Form">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="Your Name" 
+                    required
+                    aria-required="true"
+                >
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="Your Email" 
+                    required
+                    aria-required="true"
+                >
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea 
+                    id="message" 
+                    name="message" 
+                    placeholder="Your Message" 
+                    required
+                    aria-required="true"
+                ></textarea>
+            </div>
+            <button type="submit" class="btn" aria-label="Send message">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope" aria-hidden="true"></i> timothyray.paris@gmail.com</p>
+            <p><i class="fas fa-phone" aria-hidden="true"></i> +33648951121</p>
+            <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Montrouge, France</p>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio.</p>
+    </footer>
+
+    <script src="public/scripts/portfolio.js"></script>
+</body>
+</html>
