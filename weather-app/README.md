@@ -12,14 +12,7 @@ A simple weather application that displays current weather conditions and foreca
 - Node.js (v14 or higher)
 - npm (comes with Node.js)
 - OpenWeatherMap API key (free tier available)
-
-## Setup Instructions
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/IllayanVess/portfolio/weather-app.git
-cd weather-app
-
+  
 ## Common Issues
 🔴 **Error: API key not configured**
 - Verify your `.env` file exists in the root folder
@@ -29,3 +22,12 @@ cd weather-app
 🔴 **404 Errors**
 - Make sure your server is running (`node server.js`)
 - Check you're accessing `http://localhost:3000` not `:5500`
+
+## Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/IllayanVess/portfolio/weather-app.git
+cd weather-app
+
+
