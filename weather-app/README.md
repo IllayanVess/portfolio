@@ -17,5 +17,5 @@ A simple weather application that displays current weather conditions and foreca
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/IllayanVess/portfolio/new/main/weather-app.git
+git clone https://github.com/IllayanVess/portfolio/weather-app.git
 cd weather-app
