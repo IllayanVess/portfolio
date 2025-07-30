@@ -29,5 +29,6 @@ A simple weather application that displays current weather conditions and foreca
 ```bash
 git clone https://github.com/IllayanVess/portfolio/weather-app.git
 cd weather-app
+node server.js
 
 
